@@ -1,0 +1,39 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : rvmyth
+Version: V-2023.12-SP4
+Date   : Mon Oct  6 18:38:03 2025
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_tt0p78vn40c (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt0p78vn40c.db)
+
+
+Operating Conditions: tt0p78vn40c   Library: saed32rvt_tt0p78vn40c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+rvmyth                 16000             saed32rvt_tt0p78vn40c
+
+
+Global Operating Voltage = 0.78 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+rvmyth                                    5.339  253.290 2.04e+08  462.702 100.0
+1

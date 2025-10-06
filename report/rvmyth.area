@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : rvmyth
+Version: V-2023.12-SP4
+Date   : Mon Oct  6 18:37:45 2025
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_tt0p78vn40c (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt0p78vn40c.db)
+
+Number of ports:                           12
+Number of nets:                          2365
+Number of cells:                         2248
+Number of combinational cells:           1572
+Number of sequential cells:               676
+Number of macros/black boxes:               0
+Number of buf/inv:                         74
+Number of references:                      27
+
+Combinational area:               3915.850768
+Buf/Inv area:                       94.033280
+Noncombinational area:            4466.835091
+Macro/Black Box area:                0.000000
+Net Interconnect area:            2857.768286
+
+Total cell area:                  8382.685858
+Total area:                      11240.454144
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------
+rvmyth                            8382.6859    100.0  3915.8508  4466.8351  0.0000  rvmyth
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------
+Total                                                 3915.8508  4466.8351  0.0000
+
+1
