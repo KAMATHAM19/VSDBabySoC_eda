@@ -1,6 +1,8 @@
 # VSDBabySoC
 
+```
 run_dc.tcl#Sets the path to the technology library (32nm SAED)
+
 set PDK_PATH /data/pdk/pdk32nm/SAED32_EDK/
 
 #Sets the variable RTL_SOURCE_FILES to point to your RTL design
@@ -47,4 +49,4 @@ report_area -hierarchy > ./report/rvmyth.area
 report_timing > ./report/rvmyth.timing
 report_power -hierarchy > ./report/rvmyth.power
 report_qor > ./report/rvmyth.qor
-
+```
